@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "therapi",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": "false",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "auththerapidf8d4e76",
+            "Outputs.UserPoolId"
+        ]
+    }
+}

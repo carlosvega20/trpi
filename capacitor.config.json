@@ -1,0 +1,7 @@
+{
+  "appId": "com.cvega.therapi",
+  "appName": "Therapi",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build"
+}

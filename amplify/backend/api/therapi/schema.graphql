@@ -1,0 +1,29 @@
+type Thread @model @auth(rules: [{ allow: owner, ownerField: "owner" }]) {
+  id: ID!
+  owner: String
+  updatedAt: AWSDateTime
+  content: String
+  event: Int
+  mood: Mood
+  comments: [Comment] @connection
+}
+enum Mood {
+  ANXIETY
+  HOMESICKNES
+  LONELINESS
+  SHAME
+  FEAR
+  PANIC
+  SADNESS
+  DISAPPOINTMENT
+  EMPTINESS
+  FRUSTRATION
+  HELPLESSNESS
+  BEWILDERMENT
+}
+type Comment @model @auth(rules: [{ allow: owner, ownerField: "owner" }]) {
+  id: ID!
+  owner: String
+  content: String
+  updatedAt: AWSDateTime
+}

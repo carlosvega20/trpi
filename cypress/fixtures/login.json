@@ -1,0 +1,7 @@
+{
+  "user": "test@gmail.com",
+  "password": "Test#123#{enter}",
+  "nouser": "notest@gmail.com",
+  "nopassword": "noTest#123#{enter}",
+  "body": "Fixtures are a great way to mock data for responses to routes"
+}

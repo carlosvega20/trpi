@@ -1,0 +1,7 @@
+{
+  "name": "Therapi",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
