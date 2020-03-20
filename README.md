@@ -1,3 +1,5 @@
+![Therapi ScreenShot](therapi_screenshot.png)
+
 TrPI (Aka Therapi) App
 
 Mobile Healthcare App (IOS/Android) to express and analyse emotions.
